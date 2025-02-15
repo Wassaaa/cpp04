@@ -13,6 +13,8 @@ SRCS				=	 \
 						Animal.cpp \
 						Cat.cpp \
 						Dog.cpp \
+						WrongAnimal.cpp \
+						WrongCat.cpp \
 
 OBJECTS				=	$(addprefix $(OBJ_DIR)/, $(SRCS:%.cpp=%.o))
 
