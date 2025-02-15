@@ -15,9 +15,9 @@ Cat::Cat(const Cat& other) : Animal(other)
 //copy assignment
 Cat& Cat::operator=(const Cat& other)
 {
+	std::cout << "Cat Copy Assignment Operator called\n";
 	if (this == &other)
 		return (*this);
-	std::cout << "Cat Copy Assignment Operator called\n";
 	Animal::operator=(other);
 	return *this;
 }
