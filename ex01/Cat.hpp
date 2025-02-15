@@ -13,6 +13,7 @@ public:
 	~Cat();
 	
 	void makeSound() const override;
+	Brain* getBrain() const;
 
 private:
 	Brain* brain;
